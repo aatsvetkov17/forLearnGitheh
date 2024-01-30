@@ -14,5 +14,6 @@ class Ellie(object):
             if command == 'stop':
                 self.last_c = command
                 self.run = False
-        
+
+
 e = Ellie().cmd()
