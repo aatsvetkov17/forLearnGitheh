@@ -12,6 +12,7 @@ class Ellie(object):
         while self.run:
             command = input("~e> ")
             if command == 'stop':
+                self.last_c = command
                 self.run = False
         
 e = Ellie().cmd()
