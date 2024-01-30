@@ -6,6 +6,7 @@ class Ellie(object):
         self.name = 'Ellie'
         self.version = 2
         self.run = True
+        self.last_c = ''
 
     def cmd(self):
         while self.run:
